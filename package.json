@@ -1,6 +1,6 @@
 {
   "name": "hello-world",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "dependencies": {
     "@raulnicoletti/react-scripts-extension": "0.4.1-beta",
@@ -21,7 +21,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "env": {
+      "webextensions": true
+    }
   },
   "browserslist": {
     "production": [
