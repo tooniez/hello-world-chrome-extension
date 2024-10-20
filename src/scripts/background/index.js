@@ -1,1 +1,5 @@
-console.log('Hello from the background!');
+/* global chrome */
+chrome.action.onClicked.addListener(() => {
+    chrome.sidebarAction.open();
+  });
+
